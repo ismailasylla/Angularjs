@@ -1,17 +1,21 @@
 <!DOCTYPE html>
-<html>
+<html ng app = "myApp"  >
 <head>
 	<title>welcome isma</title>
 	<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
 </head>
 <body>
 
-<h1>Welcome to Angularjs Mr Isma </h1>
+<div ng-controller="myFirstController">
+
+<h1>My First Angularjs App </h1>
+
+<pre>  {{name}} </pre>
 
 
-
+</div>
 </body>
-<script type="text/javascript" src="js/angular.js"></script>
+<script type="text/javascript" src="js/angular.min.js"></script>
 <script type="text/javascript" src="js/ui-bootstrap.min.js"></script>
 <script type="text/javascript" src="js/ui-bootstrap-tpls.min.js" ></script>
 <script type="text/javascript" src="app.js "></script>
